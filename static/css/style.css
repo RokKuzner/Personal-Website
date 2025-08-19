@@ -4,6 +4,9 @@ body {
     margin: 0;
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    color: white;
+    background-color: rgb(28, 28, 28);
 }
 
 .first-page-welcome-container {
