@@ -10,6 +10,6 @@ setTimeout(() => {
 
     // If the target element is not already scrolled to
     if (target_paragraph_center_y > window.innerHeight) {
-        window.scrollBy(0, target_paragraph_center_y-window.innerHeight)
+        window.scrollBy({ left: 0, top: target_paragraph_center_y-window.innerHeight, behavior: 'smooth' })
     }
 }, 5000)
