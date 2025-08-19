@@ -60,4 +60,5 @@ body {
     background-color: rgb(28, 28, 28);
     width: 100vw;
     min-height: 100vh;
+    padding: 10px;
 }
