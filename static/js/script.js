@@ -1,7 +1,7 @@
 const content_paragraphs = document.querySelectorAll(".content p")
 const target_paragraph = content_paragraphs[1]
 
-const scroll_duration = 2000;
+const scroll_duration = 1000;
 
 // Easing function for ease-in-out
 function easeInOutQuad(p) {
@@ -40,4 +40,4 @@ setTimeout(() => {
         // Start the animation loop
         requestAnimationFrame(animateScroll);
     }
-}, 5000)
+}, 1500)
