@@ -1,3 +1,7 @@
-const introduction_paragraph = document.querySelector(".content p")
+const content_paragraphs = document.querySelectorAll(".content p")
+const target_paragraph = content_paragraphs[1]
+const mail_anchor = document.querySelector("#mail")
 
-console.log(introduction_paragraph)
+setTimeout(() => {
+    console.log("Here!")
+}, 5000)
