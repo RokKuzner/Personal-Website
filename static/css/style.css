@@ -87,8 +87,9 @@ a {
 
 .foot ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
-    width: max-content;
+    max-width: max-content;
     margin-right: auto;
     margin-left: auto;
     padding: 0;
