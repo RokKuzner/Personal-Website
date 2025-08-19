@@ -54,7 +54,7 @@ body {
     margin-right: auto;
 }
 
-.content {
+.overlay {
     position: absolute;
     top: 100vh;
     background-color: rgb(28, 28, 28);
