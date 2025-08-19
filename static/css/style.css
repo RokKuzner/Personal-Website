@@ -42,10 +42,12 @@ body {
     pointer-events: none;
 }
 
-#mail {
+a {
     color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
+}
 
+#mail {
     font-size: clamp(1rem, 2vw, 1.5rem);
 
     display: flex;
