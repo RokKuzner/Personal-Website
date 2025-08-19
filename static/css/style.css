@@ -63,6 +63,9 @@ a {
     width: 100vw;
     min-height: 100vh;
     box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .content {
@@ -75,6 +78,7 @@ a {
 }
 
 .foot {
+    margin-top: auto;
     width: 100vw;
     box-sizing: border-box;
     background-color: rgb(15, 15, 15);
