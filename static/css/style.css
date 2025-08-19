@@ -10,7 +10,7 @@ body {
 }
 
 .first-page-welcome-container {
-    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(/static/black-marble-bg.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/static/black-marble-bg.jpeg);
 
     background-size: cover;
     background-position: center;
@@ -47,7 +47,7 @@ body {
     text-decoration: none;
 
     font-size: clamp(1rem, 2vw, 1.5rem);
-    
+
     display: flex;
     width: max-content;
     margin-left: auto;
@@ -62,4 +62,10 @@ body {
     min-height: 100vh;
     padding: 10px 25px;
     box-sizing: border-box;
+}
+
+.content {
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
 }
