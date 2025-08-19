@@ -9,6 +9,11 @@ body {
     background-color: rgb(28, 28, 28);
 }
 
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .first-page-welcome-container {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/static/black-marble-bg.jpeg);
 
